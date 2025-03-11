@@ -1790,7 +1790,7 @@ ul.links li a::before,
 .navbar-brand {
     margin: 16px 0;
     padding: 0;
-    width: 100px;
+    width: 180px;
     position: relative;
 }
 
@@ -1815,6 +1815,9 @@ ul.links li a::before,
 
 .navbar-brand>img {
     width: 100%;
+    height: auto;
+    max-height: 50px;
+    object-fit: contain;
 }
 
 .navbar.fixedmenu .logo-default,
